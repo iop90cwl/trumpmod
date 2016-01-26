@@ -1,0 +1,16 @@
+[
+{
+  "modid": "trumpmod",
+  "name": "You Can't Stump the Trump",
+  "description": "This mod adds Donald's famous toupee and allows you to craft a small loan of a million dollars.",
+  "version": "0.1",
+  "mcversion": "1.8",
+  "url": "http://cwlandes.com/",
+  "updateUrl": "",
+  "authorList": ["iop90cwl"],
+  "credits": "Most programming from MrCrayFish's beginner mod tutorials, assets and additional programming by iop90cwl.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

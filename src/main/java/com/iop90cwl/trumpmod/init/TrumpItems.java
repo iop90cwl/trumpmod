@@ -1,6 +1,7 @@
 package com.iop90cwl.trumpmod.init;
 
 import com.iop90cwl.trumpmod.Reference;
+import com.iop90cwl.trumpmod.TrumpMod;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
@@ -13,7 +14,7 @@ public class TrumpItems {
 	
 	
 	public static void init() {
-		trump_toupee = new Item().setUnlocalizedName("trump_toupee");
+		trump_toupee = new Item().setUnlocalizedName("trump_toupee").setCreativeTab(TrumpMod.tabTrump);
 		
 	}
 	

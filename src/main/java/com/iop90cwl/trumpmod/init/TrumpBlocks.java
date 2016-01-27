@@ -1,6 +1,7 @@
 package com.iop90cwl.trumpmod.init;
 
 import com.iop90cwl.trumpmod.Reference;
+import com.iop90cwl.trumpmod.TrumpMod;
 import com.iop90cwl.trumpmod.blocks.BlockTrump;
 
 import net.minecraft.block.Block;
@@ -16,7 +17,7 @@ public class TrumpBlocks {
 	
 	public static void init()
 	{
-		trump_loan = new BlockTrump(Material.cloth).setUnlocalizedName("trump_loan");
+		trump_loan = new BlockTrump(Material.cloth).setUnlocalizedName("trump_loan").setCreativeTab(TrumpMod.tabTrump);
 	}
 	public static void register()
 	{

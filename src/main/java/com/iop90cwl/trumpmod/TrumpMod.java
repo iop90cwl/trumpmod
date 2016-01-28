@@ -35,12 +35,8 @@ public class TrumpMod {
 	public void init(FMLInitializationEvent event)
 	{
 		proxy.registerRender();
-		GameRegistry.addRecipe(new ItemStack(TrumpBlocks.trump_loan), new Object[]{"GGG",
-																				   "GGG",
-																				   "GGG", 'G', Blocks.gold_block});
-		GameRegistry.addRecipe(new ItemStack(TrumpItems.trump_toupee), new Object[]{"SSS",
-				   																	"SES",
-				   																	"SSS", 'S', Items.string, 'E', Items.egg});
+		GameRegistry.addRecipe(new ItemStack(TrumpBlocks.trump_loan), new Object[]{"GGG", "GGG","GGG", 'G', Items.gold_ingot});
+		GameRegistry.addRecipe(new ItemStack(TrumpItems.trump_toupee), new Object[]{"SSS","SES","SSS", 'S', Items.string, 'E', Items.egg});
 	}
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event)

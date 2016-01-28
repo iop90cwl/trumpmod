@@ -1,4 +1,4 @@
-#You Can't Stump the Trump- Minecraft Mod
+#You Can't Stump the Trump! Minecraft Mod
 
 Download Current Version 0.2:
 

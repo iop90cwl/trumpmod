@@ -36,7 +36,7 @@ public class TrumpMod {
 	{
 		proxy.registerRender();
 
-		GameRegistry.addRecipe(new ItemStack(TrumpBlocks.trump_loan), new Object[]{"GGG", "GGG","GGG", 'G', Items.gold_ingot});
+		GameRegistry.addRecipe(new ItemStack(TrumpBlocks.trump_loan), new Object[]{"GGG", "GBG","GGG", 'G', Items.gold_ingot, 'B', Blocks.gold_block});
 		GameRegistry.addRecipe(new ItemStack(TrumpItems.trump_toupee), new Object[]{"SSS","SES","SSS", 'S', Items.string, 'E', Items.egg});
 	}
 	@EventHandler

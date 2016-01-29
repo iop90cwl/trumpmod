@@ -8,7 +8,7 @@ public class BlockTrump extends Block{
 		public BlockTrump(Material materialIn) {
 			
 			super(materialIn);
-			this.setHardness(0.7F);
+			this.setHardness(0.6F);
 			this.setLightLevel(0.5F);
 			this.setStepSound(soundTypeCloth);
 		}
